@@ -8,7 +8,8 @@
     "build": "ng build --prod",
     "test": "echo 'Tests not yet implemented' && exit 1",
     "lint": "ng lint",
-    "postinstall": "node post-install.js"
+    "postinstall": "node post-install.js",
+    "server": "node ./src/server/server.js"
   },
   "private": true,
   "dependencies": {
@@ -23,11 +24,17 @@
     "@angular/router": "^5.0.0",
     "@okta/okta-angular": "^1.0.0",
     "@okta/okta-signin-widget": "^2.5.0",
+    "@okta/jwt-verifier": "0.0.11",
+    "@okta/oidc-middleware": "0.0.15",
     "colors": "^1.1.2",
     "core-js": "^2.4.1",
     "rxjs": "^5.5.2",
     "semantic-ui-css": "^2.2.12",
-    "zone.js": "^0.8.14"
+    "zone.js": "^0.8.14",
+    "cors": "^2.8.4",
+    "express": "^4.14.0",
+    "express-session": "^1.15.6",
+    "mustache-express": "^1.2.5"
   },
   "devDependencies": {
     "@angular/cli": "1.6.8",

@@ -1,0 +1,12 @@
+{
+  "resourceServer": {
+    "port": 8000,
+    "oidc": {
+      "issuer": "https://dev-489531.oktapreview.com/oauth2/default"
+    },
+    "assertClaims": {
+      "aud": "api://default",
+      "cid": "0oaezow22bGT35J900h7"
+    }
+  }
+}

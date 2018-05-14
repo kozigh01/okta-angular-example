@@ -76,3 +76,7 @@ This sample contains the same "Messages" page that is included in the [Okta Host
 [Okta Angular Library]: https://github.com/okta/okta-oidc-js/tree/master/packages/okta-angular
 [OIDC SPA Setup Instructions]: https://developer.okta.com/authentication-guide/implementing-authentication/implicit#1-setting-up-your-application
 [Okta Sign In Widget]: https://github.com/okta/okta-signin-widget
+
+
+## Starting the Node.js server
+`node ./src/server/server.js`
